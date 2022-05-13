@@ -85,4 +85,4 @@ console.log (mostPets)*/
 //      You'll need to research how to use switch statements!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-
+console.log((adventurous) ? 'Adventures are great!' : 'How about we stay home?')
