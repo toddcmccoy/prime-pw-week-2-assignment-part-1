@@ -22,7 +22,7 @@ let food = ' tacos';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 3;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 1;
+let friendsPets = 11;
 // 11 - Add two pets to your `pets` variable
 pets += 2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
@@ -71,10 +71,19 @@ if (pets > friendsPets){
     let mostPets = pets;
 }
 else {
-    let mostPets = friensdPets;
+    let mostPets = friendsPets;
 }
 console.log (mostPets)*/
 
+let mostPets;
+
+if (pets > friendsPets){
+     mostPets = pets;
+}
+else {
+    mostPets = friendsPets;
+}
+console.log (mostPets)
 
 
 // 17 - Write a *switch* statement that logs:
