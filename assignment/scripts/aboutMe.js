@@ -35,7 +35,7 @@ if (adventurous === true) {
 } 
 else {
     console.log ('How about we stay home?');
-}// end adventures versus homebodies
+}// end adventurers versus homebodies
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
@@ -83,7 +83,7 @@ if (pets > friendsPets){
 else {
     mostPets = friendsPets;
 }
-console.log (mostPets)
+console.log (mostPets)//figured it out, this one worked
 
 
 // 17 - Write a *switch* statement that logs:
